@@ -95,3 +95,19 @@ var key = 'hello';
 
 obj[key] = 'world';
 console.log(obj);
+
+
+var circle = {
+    radius: 5,
+    getDiameter: function() { //메서드
+        return 2 * this.radius;
+    }
+};
+console.log(circle.getDiameter()); //10
+
+var person = {
+    name : 'Kim'
+};
+
+console.log(person.name); // Kim
+console.log(person['name']); //Kim
