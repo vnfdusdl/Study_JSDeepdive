@@ -129,3 +129,31 @@ person.name = 'Lee';
 
 //프로퍼티 동적 생성
 person.address = 'Seoul';
+
+//별찍기 문제
+function star(n){
+    if( 1 <= n <= 100) {
+        for(let i = 1; i <= n; i++) {
+            for( let j = 1; j <= i; j++){
+                document.write('*');
+            }
+            document.write('<br>')
+        }
+    }
+}
+star(5);
+
+// 누리님 1주차 문제
+// 400,500 을 삭제하는 코드를 입력하세요.
+var nums = [100, 200, 300, 400, 500];
+
+for(let i = 0; i < nums.length; i++) {
+    if(nums[i] === 400) {
+        nums.splice(i,1);
+        i--;
+    }
+    else if(nums[i] === 500) {
+        nums.splice(i,1);
+        i--;
+    }
+}
