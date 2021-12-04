@@ -157,3 +157,108 @@ for(let i = 0; i < nums.length; i++) {
         i--;
     }
 }
+
+//소현님 문제 
+// 어떤 사람의 성적이 주어졌을 때, 평점은 몇 점인지 출력하세요!
+// 예를 들어, 'A+'가 주어지면 평점은 4.3 입니다. '+'는 0.3을 더하고 '-'는 0.3을 빼면 됩니다. 
+// A+: 4.3, A0: 4.0, A-: 3.7
+// B+: 3.3, B0: 3.0, B-: 2.7
+// C+: 2.3, C0: 2.0, C-: 1.7
+// D+: 1.3, D0: 1.0, D-: 0.7
+// F: 0.0
+
+function scoreCal(grade) {
+    grade += ' '; //0를 안붙였을 때를 대비
+    let str1 = grade.slice(0,1).toUpperCase(); //소문자로 넣을 때를 대비
+    let str2 = grade.slice(1,2);
+    let score = 0;
+    
+    if(str1 === 'A'){
+        score += 4.0;
+    } else if (str1 === 'B'){
+        score += 3.0;
+    } else if (str1 === 'C'){
+        score += 2.0;
+    } else if (str1 === 'D'){
+        score += 1.0;
+    } else if (str1 === 'F'){
+        score += 0.0
+        if( str2 !== '0' && str2 !== ' ') {
+            console.log('잘못된 입력 값입니다')
+            return
+        }
+    } else {
+        console.log('잘못된 입력 값입니다.');
+        return 
+    }
+
+    if (str1 !== 'F'){
+        if(str2 === '-'){
+            score -= 0.3
+        } else if (str2 === '+'){
+            score += 0.3
+        } else if (str2 === '0' || str2 === ' '){
+            score += 0.0
+        } else {
+            console.log('잘못된 입력 값입니다.');
+            return 
+        }
+    }
+    console.log(score);
+}
+
+
+
+
+
+// 서영님 문제 
+// for문을 사용하여 1부터 20 미만의 정수 중에서 2 또는 3의 배수가 아닌 수의 총합을 구하세요!
+
+let sum = 0;
+for(let i = 1; i < 20; i++) {
+    if (i % 2 !== 0 && i % 3 !== 0) {
+        sum += i;
+    }
+}
+console.log(sum);
+
+//승연님 문제
+// 주어진 문자열을 새로운 변수에 배열(array)로 변환해주세요.
+// let fruits = '사과, 바나나, 귤, 멜론, 딸기';       
+// 배열형식 = ['사과, 바나나, 귤, 멜론, 딸기']
+let fruits = '사과, 바나나, 귤, 멜론, 딸기'; 
+let newFruits = [];
+newFruits.push(fruits.split(','));
+
+console.log(newFruits);
+
+//경서님 문제
+let alarm = '';
+function num(n) {
+    if(n % 2) {
+        alarm = '홀수입니다!!';
+    } else {
+        alarm = '짝수입니다!!';
+    }
+    console.log(alarm);
+}
+num(2);
+num(5);
+
+let alarm = '';
+function num(n) {
+    if(n % 2 !== 0) {
+        alarm = '홀수입니다!!';
+    } else {
+        alarm = '짝수입니다!!';
+    }
+    console.log(alarm);
+}
+
+let notice = '';
+function num(number) {
+    number % 2 ? notice = '홀수입니다!!' : notice = '짝수입니다!!';
+    console.log(notice);
+}
+num(2);
+num(5);
