@@ -46,7 +46,7 @@ npm install json-server --save-dev
 - 프로젝트 루트 폴더에 db.json을 생성.
 - db.json 파일은 리소스를 제공하는 데이터베이스 역할을 한다. 
 
-<img src="./sources/todos.json.png" width="300px" alt=""></img><br/>
+<img src="./sources/todos.json.png" width="500px" alt=""></img><br/>
 
 ## 44.3.3 JSON Server 실행
 `npm start`
