@@ -247,7 +247,7 @@ npm install json-server --save-dev
 
 <img src="./sources/patch.json.png" width="500px" alt=""></img><br/>
 
-
+---
 
 ## 44.3.8 DELETE 요청
 - 리소스 삭제할 때 사용하는 요청 메서드
@@ -286,7 +286,7 @@ npm install json-server --save-dev
 </body>
 </html>
 ```
-- http://localhost:3000/patch.html 로 접속
+- http://localhost:3000/delete.html 로 접속
 
 <img src="./sources/delete.html.png" width="500px" alt=""></img><br/>
 
