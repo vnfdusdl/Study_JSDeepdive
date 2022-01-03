@@ -2,8 +2,6 @@
 ===
 - REST는 HTTP를 기반으로 클라이언트가 서버의 리소스에 접근하는 방식을 규정한 아키텍쳐이다.
 - REST API는 REST를 기반으로 서비스 API를 구현한 것을 의미한다.
-JSON Server가 데이터 베이스를 하는 db.json 파일의 
-npm start 명령어를 통해 JSON Server가 실행됨
 
 # 44.1 REST API의 구성
 - 자원(resource), 행위, 표현의 3가지 요소로 구성된다
