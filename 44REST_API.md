@@ -116,7 +116,7 @@ http://localhost:3000
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>post</title>
 </head>
 <body>
     <pre></pre>
@@ -166,7 +166,7 @@ http://localhost:3000
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>put</title>
 </head>
 <body>
     <pre></pre>
@@ -216,7 +216,7 @@ http://localhost:3000
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>patch</title>
 </head>
 <body>
     <pre></pre>
@@ -265,7 +265,7 @@ http://localhost:3000
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>delete</title>
 </head>
 <body>
     <pre></pre>
