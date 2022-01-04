@@ -293,7 +293,7 @@ http://localhost:3000
 </body>
 </html>
 ```
-- http://localhost:3000/patch.html 로 접속
+- http://localhost:3000/delete.html 로 접속
 
 <img src="./sources/delete.html.png" width="500px" alt=""></img><br/>
 
