@@ -2,6 +2,8 @@
 ===
 - REST는 HTTP를 기반으로 클라이언트가 서버의 리소스에 접근하는 방식을 규정한 아키텍쳐이다.
 - REST API는 REST를 기반으로 서비스 API를 구현한 것을 의미한다.
+JSON Server가 데이터 베이스를 하는 db.json 파일의 
+npm start 명령어를 통해 JSON Server가 실행됨
 
 # 44.1 REST API의 구성
 - 자원(resource), 행위, 표현의 3가지 요소로 구성된다
@@ -39,12 +41,19 @@ GET /todos/1
 npm init -y
 npm install json-server --save-dev
 ```
+Resources
+http://localhost:3000/todos
+
+Home
+http://localhost:3000
+
+<img src="./sources/todos.png" width="550px" alt=""></img><br/>
 
 ## 44.3.2 db.json 파일 생성
 - 프로젝트 루트 폴더에 db.json을 생성.
 - db.json 파일은 리소스를 제공하는 데이터베이스 역할을 한다. 
 
-<img src="./sources/todos.json.png" width="500px" alt=""></img><br/>
+<img src="./sources/todos.json.png" width="300px" alt=""></img><br/>
 
 ## 44.3.3 JSON Server 실행
 `npm start`
@@ -245,7 +254,7 @@ npm install json-server --save-dev
 
 <img src="./sources/patch.json.png" width="500px" alt=""></img><br/>
 
----
+
 
 ## 44.3.8 DELETE 요청
 - 리소스 삭제할 때 사용하는 요청 메서드
@@ -284,7 +293,7 @@ npm install json-server --save-dev
 </body>
 </html>
 ```
-- http://localhost:3000/delete.html 로 접속
+- http://localhost:3000/patch.html 로 접속
 
 <img src="./sources/delete.html.png" width="500px" alt=""></img><br/>
 
