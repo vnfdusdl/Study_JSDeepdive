@@ -41,13 +41,6 @@ GET /todos/1
 npm init -y
 npm install json-server --save-dev
 ```
-Resources
-http://localhost:3000/todos
-
-Home
-http://localhost:3000
-
-<img src="./sources/todos.png" width="550px" alt=""></img><br/>
 
 ## 44.3.2 db.json 파일 생성
 - 프로젝트 루트 폴더에 db.json을 생성.
@@ -58,6 +51,12 @@ http://localhost:3000
 ## 44.3.3 JSON Server 실행
 `npm start`
 
+Resources
+http://localhost:3000/todos
+
+Home
+http://localhost:3000
+<img src="./sources/todos.png" width="550px" alt=""></img><br/>
 ## 44.3.4 GET 요청
 - GET요청은 리소스 취득할 때 사용하는 요청메서드이다.
 ```html
