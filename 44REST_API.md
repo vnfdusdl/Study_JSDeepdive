@@ -56,6 +56,7 @@ http://localhost:3000/todos
 
 Home
 http://localhost:3000
+
 <img src="./sources/todos.png" width="550px" alt=""></img><br/>
 ## 44.3.4 GET 요청
 - GET요청은 리소스 취득할 때 사용하는 요청메서드이다.
